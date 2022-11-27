@@ -8,23 +8,40 @@
     <title>FormaText</title>
 </head>
 <body>
-    <header><h1>FORMATEXT</h1></header>
+    <header>
+        <img class= "logo" src="img/formaText-removebg-preview.png" alt="Logo formaTexT">
+        <div class="fundo_logo"></div>
+    </header>
     <main>
         <div class="container">
+            <div class="ad1"></div>
             <div class="boxes">
                 <section class="section-1">
-                    <div class="entertext"><textarea></textarea></div>
-                    <div class="tools">tools</div>
+                            <textarea id="entertext" name="insert_text" placeholder="Write here..."></textarea>
+                    <div class="tools">
+                        <button id="tool-1" onClick="F_uppercase()">1</button>
+                        <button id="tool-2">2</button>
+                        <button id="tool-3">3</button>
+                        <button id="tool-4">4</button>
+                        <button id="tool-5">5</button>
+                        <button id="tool-6">6</button>
+                        <button id="tool-7">7</button>
+                        <button id="tool-7">8</button>
+                        <button id="tool-9">9</button>
+                        <button id="tool-10">0</button>
+                    </div>
                 </section>
-                <div class="outtext">outtext</div>
+                <textarea id="outtext" name="output_text" readonly></textarea>
             </div>
-            <div class="ad">
-                <div class="ad1"></div>
-                <div class="ad2"></div>
-            </div>
+            <div class="ad2"></div>
         </div>
     </main>
     <footer>
+        <div class="footer_text">
+            <p>Developed by: Rodolfo Masalskiene</p>
+            <p>Contact: <a href="//www.linkedin.com/in/rodolfo-wetterich-masalskiene-489555248">Linkedin</a></p>
+        </div>
+        <script src="index.js"></script>
     </footer>
 </body>
 </html>
